@@ -10,4 +10,4 @@ The table below shows which API version is used by which Remootio software versi
 
 | Remootio software version  | API version |
 |---|---|
-| v1.00 - v2.20  | v1 |
+| v1.00 - v2.20  | [v1](websocket_api_v1_specification.md) |
