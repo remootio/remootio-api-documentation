@@ -15,12 +15,19 @@ The table below shows which API version is used by which Remootio software versi
 | Remootio software version  | API version |
 |---|---|
 | v1.00 - v2.20  | [v1](websocket_api_v1_specification.md) |
+| v2.21 -   | [v2](websocket_api_v2_specification.md) |
 
 ## Short description of API versions
+
+### Websocket API v2
+
+Added more information to SERVER_HELLO frame
+Increased the amount of log events emitted by Remootio
+
+[View Websocket API v2 documentation](websocket_api_v2_specification.md)
 
 ### Websocket API v1
 
 This is the initial API version.
 
 [View Websocket API v1 documentation](websocket_api_v1_specification.md)
-
