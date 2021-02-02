@@ -16,8 +16,15 @@ The table below shows which API version is used by which Remootio software versi
 |---|---|
 | v1.00 - v2.20  | [v1](websocket_api_v1_specification.md) |
 | v2.21 -   | [v2](websocket_api_v2_specification.md) |
+| v2.24 -   | [v3](websocket_api_v3_specification.md) |
 
 ## Short description of API versions
+
+### Websocket API v3
+
+Added support and events for holding Remootio's output active for longer periods of time. See the optional duration field in the actions.
+
+[View Websocket API v3 documentation](websocket_api_v3_specification.md)
 
 ### Websocket API v2
 
