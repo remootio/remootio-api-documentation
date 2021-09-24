@@ -27,6 +27,9 @@ For the best user experience it is recommended to assign an fixed IP address to 
 ### 3) Connecting to the API
 After the API is enabled, it can be connected at ws://<device-ip-address>:8080 (e.g. ws://192.168.1.115). As it's a ws:// conection and not a secure wss:// connection the API implements encryption of frames containing sensitive information. These frames are called ENCRYPTED frames (see Basic Fraems). Moreover the API client needs to authenticate itself to the Remootio device otherwise the connection will be closed. (More about the authentication process is described in chapter 6)
 
+#### Maximum number of connections
+The Websocket API currently only supports one connection at a time
+
 ### 4) Finding out the device IP using MDNS (optional)
 Getting the IP address is also possible using MDNS. When the API is enabled Remootio will advertise its service on MDNS.
 The advertised service type is ```_remootio``` and the service protocol is ```_tcp```. The service instance name is be the serial number of the Remootio device. The MDNS hostname for the device is ```remootio_<serial_number>.local```
