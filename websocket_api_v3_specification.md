@@ -187,7 +187,7 @@ As actions will be discussed later in detail, here we briefly describe what has 
 {
     "action":{
         "type":"QUERY",
-        "id":808411243
+        "id":808411244
     }
 }
 ```
@@ -851,13 +851,13 @@ The input is an UNENCRYPTED_PAYLOAD:
 {
     "action":{
         "type":"QUERY",
-        "id":808411243
+        "id":808411244
     }
 }
 ```
 The frist step if to remove any formatting from the UNENCRYPTED_PAYLOAD JSON string (if any) 
 ```javascript
- var unencryptedPayload = '{"action":{"type":"QUERY","id":808411243}}'
+ var unencryptedPayload = '{"action":{"type":"QUERY","id":808411244}}'
 ```
 The second step is to add [PKCS7 padding](https://en.wikipedia.org/wiki/Padding_(cryptography)#PKCS#5_and_PKCS#7) to the UNENCRYPTED_PAYLOAD (some crypto libraries can do this with their encrypt operation)
 ```javascript
